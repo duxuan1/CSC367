@@ -1,4 +1,4 @@
-# CSC367 Course Syllabus
+# CSC367 Parallel Programming
 
 Introduction to aspects of parallel programming. Topics include computer instruction execution, instruction-level parallelism, memory system performance, task and data parallelism, parallel models (shared memory, message passing), synchronization, scalability and Amdahl’s law, Flynn taxonomy, vector processing and parallel computing architectures.
 
