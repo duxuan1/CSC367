@@ -1,0 +1,11 @@
+.venv
+*.png
+*.swp
+*.pgm
+*.out
+*.o
+very_tall_sample.c
+very_tall_sample.h
+very_big_sample.c
+very_big_sample.h
+build/

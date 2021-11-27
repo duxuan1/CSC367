@@ -1,0 +1,18 @@
+mpirun -np 8 --hostfile hostfile ./join-mpi -m -r -t 4 /virtual/csc367/datasets-a3/mpi8/dataset1
+./join-omp -m -r -t 8 /virtual/csc367/datasets-a3/dataset1
+
+(base) duxuan1@dh2020pc20:~/CSC367/a3/group_0292/A3$ ./join-seq -m -r -t 8 /virtual/csc367/datasets-a3/dataset1
+2091
+0.041137
+(base) duxuan1@dh2020pc20:~/CSC367/a3/group_0292/A3$ ./join-seq -m -r -t 8 /virtual/csc367/datasets-a3/dataset2
+37290
+0.725542
+(base) duxuan1@dh2020pc20:~/CSC367/a3/group_0292/A3$ ./join-seq -m -r -t 8 /virtual/csc367/datasets-a3/dataset3
+1665827
+68.979674
+(base) duxuan1@dh2020pc20:~/CSC367/a3/group_0292/A3$ ./join-seq -m -r -t 8 /virtual/csc367/datasets-a3/dataset4
+8312045
+72.515963
+(base) duxuan1@dh2020pc20:~/CSC367/a3/group_0292/A3$ ./join-seq -m -r -t 8 /virtual/csc367/datasets-a3/dataset5
+5105918
+68.182300
