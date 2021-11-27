@@ -1,15 +1,11 @@
-# CSC367
-Experience working with writing C/C++ code designed to be executed in parallel on various platforms, programming paradigms, and architectures.
+# CSC367 Course Syllabus
 
-Theoretical knowledge of and practical experience with:
+Introduction to aspects of parallel programming. Topics include computer instruction execution, instruction-level parallelism, memory system performance, task and data parallelism, parallel models (shared memory, message passing), synchronization, scalability and Amdahl’s law, Flynn taxonomy, vector processing and parallel computing architectures.
 
-Low-level parallelism, performance analysis, profiling, etc.
+A1	System Performance and Profiling
 
-Parallel programming concepts, parallel algorithm design, parallel task decomposition, data partitioning strategies, concurrency, load balancing, scalability and speedup, efficiency, etc.
+A2	Parallel Data and Task Management
 
-Shared address space programming (Parallelization using pthreads, OpenMP, etc.)
+A3	Shared Memory and Message Passing
 
-Synchronization problems (race conditions, critical sections, synchronization primitives like locks and condition variables, barriers, solving synchronization problems, etc.)
-Message passing paradigm, Collective operations, MPI framework
-
-GPUs, CUDA architecture, memory model, streams, etc.
+A4	GPU programming
